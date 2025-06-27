@@ -18,6 +18,7 @@ dependencies:
   - asttokens=3.0.0=py313h06a4308_0
   - async-lru=2.0.5=pyh29332c3_0
   - asyncssh=2.21.0=pyhd8ed1ab_0
+  - atk-1.0=2.38.0=hd4edc92_1
   - attrs=25.3.0=pyh71513ae_0
   - aws-c-auth=0.6.19=h5eee18b_0
   - aws-c-cal=0.5.20=hdbd6064_0
@@ -50,6 +51,7 @@ dependencies:
   - ca-certificates=2025.6.15=hbd8a1cb_0
   - cached-property=1.5.2=hd8ed1ab_1
   - cached_property=1.5.2=pyha770c72_1
+  - cairo=1.16.0=he5ede1b_6
   - certifi=2025.6.15=pyhd8ed1ab_0
   - cffi=1.17.1=py313hfab6e84_0
   - charset-normalizer=3.4.2=pyhd8ed1ab_0
@@ -70,16 +72,33 @@ dependencies:
   - exceptiongroup=1.3.0=pyhd8ed1ab_0
   - executing=0.8.3=pyhd3eb1b0_0
   - expat=2.7.1=h6a678d5_0
+  - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
+  - font-ttf-inconsolata=3.000=h77eed37_0
+  - font-ttf-source-code-pro=2.038=h77eed37_0
+  - font-ttf-ubuntu=0.83=h77eed37_3
   - fontconfig=2.14.1=h55d465d_3
+  - fonts-conda-ecosystem=1=0
+  - fonts-conda-forge=1=0
   - fonttools=4.55.3=py313h5eee18b_0
   - fqdn=1.5.1=pyhd8ed1ab_1
   - freetype=2.13.3=h4a9f257_0
+  - fribidi=1.0.10=h36c2ea0_0
   - frozenlist=1.6.0=py313h61b7b33_0
   - fsspec=2025.5.1=pyhd8ed1ab_0
+  - gdk-pixbuf=2.42.6=h04a7f16_0
+  - gettext=0.24.1=h5888daf_0
+  - gettext-tools=0.24.1=h5888daf_0
   - gflags=2.2.2=h5888daf_1005
+  - glib=2.78.4=h6a678d5_0
+  - glib-tools=2.78.4=h6a678d5_0
   - glog=0.5.0=h6a678d5_1
+  - graphite2=1.3.14=h5888daf_0
+  - graphviz=2.49.0=h85b4f2f_0
+  - gtk2=2.24.33=h90689f9_2
+  - gts=0.7.6=h977cf35_4
   - h11=0.16.0=pyhd8ed1ab_0
   - h2=4.2.0=pyhd8ed1ab_0
+  - harfbuzz=4.3.0=hf52aaf7_2
   - hpack=4.1.0=pyhd8ed1ab_0
   - httpcore=1.0.9=pyh29332c3_0
   - httpx=0.28.1=pyhd8ed1ab_0
@@ -117,6 +136,8 @@ dependencies:
   - ld_impl_linux-64=2.43=h1423503_5
   - lerc=4.0.0=h0aef613_1
   - libabseil=20250127.0=cxx17_h6a678d5_0
+  - libasprintf=0.24.1=h8e693c7_0
+  - libasprintf-devel=0.24.1=h8e693c7_0
   - libblas=3.9.0=32_h59b9bed_openblas
   - libboost=1.82.0=h109eef0_2
   - libbrotlicommon=1.0.9=h5eee18b_9
@@ -133,6 +154,9 @@ dependencies:
   - libffi=3.4.6=h2dba641_1
   - libgcc=15.1.0=h767d61c_3
   - libgcc-ng=15.1.0=h69a702a_3
+  - libgd=2.3.3=h695aa2c_1
+  - libgettextpo=0.24.1=h5888daf_0
+  - libgettextpo-devel=0.24.1=h5888daf_0
   - libgfortran=15.1.0=h69a702a_3
   - libgfortran5=15.1.0=hcea5267_3
   - libglib=2.78.4=hdc74915_0
@@ -141,6 +165,7 @@ dependencies:
   - libgrpc=1.71.0=h2d74bed_0
   - libiconv=1.18=h4ce23a2_1
   - liblapack=3.9.0=32_h7ac8fdf_openblas
+  - libltdl=2.4.3a=h5888daf_0
   - libmpdec=4.0.0=hb9d3cd8_0
   - libnghttp2=1.57.0=h2d74bed_0
   - libopenblas=0.3.30=pthreads_h94d23a6_0
@@ -149,12 +174,14 @@ dependencies:
   - libpq=17.4=hdbd6064_0
   - libprotobuf=5.29.3=h3cdef7c_1
   - libre2-11=2024.07.02=hba17884_3
+  - librsvg=2.52.5=h0a9e6e8_2
   - libsodium=1.0.18=h7b6447c_0
   - libssh2=1.11.1=h251f7ec_0
   - libstdcxx=15.1.0=h8f9b012_3
   - libstdcxx-ng=15.1.0=h4852527_3
   - libthrift=0.15.0=h1795dd8_2
   - libtiff=4.2.0=hecacb30_2
+  - libtool=2.5.4=h5888daf_0
   - libutf8proc=2.10.0=h202a827_0
   - libuuid=1.41.5=h5eee18b_0
   - libwebp-base=1.5.0=h851e524_0
@@ -190,6 +217,7 @@ dependencies:
   - packaging=25.0=pyh29332c3_1
   - pandas=2.3.0=py313ha87cce1_0
   - pandocfilters=1.5.0=pyhd8ed1ab_0
+  - pango=1.50.7=hbd2fdc8_0
   - paramiko=3.5.1=pyhd8ed1ab_0
   - parso=0.8.4=py313h06a4308_0
   - partd=1.4.2=pyhd8ed1ab_0
@@ -197,6 +225,7 @@ dependencies:
   - pexpect=4.9.0=py313h06a4308_0
   - pillow=10.4.0=py313h5eee18b_0
   - pip=25.1.1=pyh145f28c_0
+  - pixman=0.46.2=h29eaf8c_0
   - pkgutil-resolve-name=1.3.10=pyhd8ed1ab_2
   - platformdirs=4.3.7=py313h06a4308_0
   - prometheus_client=0.22.1=pyhd8ed1ab_0
@@ -219,6 +248,7 @@ dependencies:
   - python=3.13.5=h4612cfd_100_cp313
   - python-dateutil=2.9.0.post0=pyhff2d567_1
   - python-fastjsonschema=2.21.1=pyhd8ed1ab_0
+  - python-graphviz=0.21=pyhbacfb6d_0
   - python-gssapi=1.8.3=py313h5eee18b_1
   - python-json-logger=2.0.7=pyhd8ed1ab_0
   - python-tzdata=2025.2=pyhd8ed1ab_0
@@ -280,6 +310,8 @@ dependencies:
   - xorg-libx11=1.8.12=h9b100fa_1
   - xorg-libxau=1.0.12=hb9d3cd8_0
   - xorg-libxdmcp=1.1.5=hb9d3cd8_0
+  - xorg-libxext=1.3.6=hb9d3cd8_0
+  - xorg-libxrender=0.9.12=hb9d3cd8_0
   - xorg-xorgproto=2024.1=h5eee18b_1
   - xyzservices=2025.4.0=pyhd8ed1ab_0
   - xz=5.6.4=h5eee18b_1
