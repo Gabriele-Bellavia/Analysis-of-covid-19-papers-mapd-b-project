@@ -25,3 +25,12 @@ Since we were using too many resources we shrank the VMs. They stopped working b
 ## Gio
 
 Set up a NFS. Now the cluster should be up perfectly up to use with no issue. I expect many problems to come.
+
+
+# 28/06/2025
+
+We can now sorta read files? Before delaying the functions the scheduler would have taken ages to compute, now it should be faster, maybe it's just all delayed...
+
+## Gio
+
+Found a list of stopwords, I didn't really checked it, a much dangerous behaviour. Seemed to work, now we should count the words, maybe a foldby?
